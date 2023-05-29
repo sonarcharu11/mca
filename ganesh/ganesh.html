@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h1>javascript String</h1>
+        <p id="demo"></p>
+        <p id="demo1"></p>
+        <p id="demo2"></p>
+        <button onclick="myFunction()">Try it</button>
+        <p id="demo4">Please visit microsoft</p>
+        <Script>
+            let text = "Hello Word";
+            document.getElementById("demo").innerHTML ="length of string" + text.length
+            let text = "Apple, Banan, Kivi";
+            let part = text1.slice(0,13);
+            document.getElementById("demo1").innerHTML = "slice function=" + part;
+            let str = "Apple, Banana , Kiwi";
+            document.getElementById("demo2").innerHTML ="substring function "+str.substring(14,20);
+            function myFunction()
+            {
+                let text5 = document.getElementById("demo4").innerHTML;
+                document.getElementById("demo4").innerHTML=
+                text5.replace("Microsof","W3School");
+            }
+            let str1 = "hello"
+            let a = str1.length;
+            document.write("length of string ="+a)
+        </Script>
+    </body>
+</html>
